@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: car_sales_Lazio
+    description: >
+      List of cars sold

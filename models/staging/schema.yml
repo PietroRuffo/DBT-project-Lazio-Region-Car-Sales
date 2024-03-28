@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-final-project-417421
+     # For postgres:
+      #database: production
+    schema: Lazio_vehicle
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: dev_gcs_to_bigquery_vehicle_lazio_to_bigquery_v1
